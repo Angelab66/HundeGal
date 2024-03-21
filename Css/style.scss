@@ -1,0 +1,5 @@
+@use 'partial';
+p{
+    font-family: partial.$primary-font;
+    color: partial.$primary-color;
+}
