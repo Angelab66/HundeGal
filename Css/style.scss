@@ -3,3 +3,34 @@ p{
     font-family: partial.$primary-font;
     color: partial.$primary-color;
 }
+body{
+    margin: 0px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-areas:
+    'header'
+    'main'
+    'footer';
+    grid-template-rows: auto 1000px 100px;
+
+}
+header{
+    grid-area: header;
+    background-color:partial.$primary-color;
+    img{
+        display: block;
+        width: 30vw;
+        height: auto;
+    }
+}
+
+main{
+    grid-area: main;
+    background-color: partial.$secondary-color;
+
+}
+footer{
+    grid-area: footer;
+    background-color: partial.$primary-color;
+  
+}

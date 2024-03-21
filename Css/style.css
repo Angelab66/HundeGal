@@ -1,4 +1,33 @@
+/*variabler*/
 p {
   font-family: "jeju hallasan";
   color: #39CAC1;
+}
+
+body {
+  margin: 0px;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-areas: "header" "main" "footer";
+  grid-template-rows: auto 1000px 100px;
+}
+
+header {
+  grid-area: header;
+  background-color: #39CAC1;
+}
+header img {
+  display: block;
+  width: 30vw;
+  height: auto;
+}
+
+main {
+  grid-area: main;
+  background-color: #FBE492;
+}
+
+footer {
+  grid-area: footer;
+  background-color: #39CAC1;
 }/*# sourceMappingURL=style.css.map */
